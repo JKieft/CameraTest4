@@ -21,11 +21,12 @@ int main(int argc, char *argv[])
 		usleep(200);
 	}
 
-	cv::Mat hello();
+	cv::Mat hello; // Je initalizeerde de mat verkeerd geen () 
 	cap.grab();
 	sleep(2);
 	cap.grab();
 
 	cap.retrieve(hello);//bij toevoegen van deze komt de foutmelding
+	
 	return 0;
 }
