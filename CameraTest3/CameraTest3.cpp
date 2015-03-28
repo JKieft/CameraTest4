@@ -26,6 +26,6 @@ int main(int argc, char *argv[])
 	sleep(2);
 	cap.grab();
 
-	cap.retrieve(hello);//dit is een dom ding bij toevoegen van deze komt de foutmelding
+	cap.retrieve(hello);//bij toevoegen van deze komt de foutmelding
 	return 0;
 }
